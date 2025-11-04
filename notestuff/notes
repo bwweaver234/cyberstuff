@@ -1,0 +1,21 @@
+# Git Commands
+
+## Summary
+
+This document is for git commands useful in claass
+
+### Basic Commands
+
+**git staus** > checking the current state of local repo
+**git add filename** > adds the file to be included for your repo
+**git add . ** > adds all files
+**git commit -m "<text>"** > adds a commit mnessage for the new files and lines
+**git push origin branchname** > updates your github repo with your changes
+
+#### If changes are made on the github repo instead of the local repo
+
+Any changes made up there need to reflect your local repo. If there's any differences, you will run into merge conflicts
+
+**git fetch origin" > checks all the updates from the origin remote but doesn't automatically merge the new changes
+
+**git pull origin**  > fetcges yodates and merges them into local repo
